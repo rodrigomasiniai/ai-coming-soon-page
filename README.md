@@ -4,7 +4,7 @@ Welcome to the **Codzz AI Coming Soon Page** repository! This project showcases 
 
 ## 🚀 Live Demo
 
-Experience the live demo [here](https://creative-malabi-954185.netlify.app/).
+Experience the live demo [here](https://ai-coming-soon.netlify.app).
 
 ## 🎨 Features
 
