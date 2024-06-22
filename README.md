@@ -72,8 +72,6 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 If you have any questions or suggestions, feel free to open an issue or reach out directly.
 
-## 🌟 Join us in building something amazing! 🌟
-
 ## 🌐 Credits
 
 - [Font Awesome](https://fontawesome.com/): For the stylish social media icons.
