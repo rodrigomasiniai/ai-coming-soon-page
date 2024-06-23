@@ -19,12 +19,12 @@ Experience the live demo [here](https://ai-coming-soon.netlify.app).
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/codzz-coming-soon.git
+   git clone https://github.com/codzz/ai-coming-soon-page.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd codzz-coming-soon
+   cd ai-coming-soon-page
    ```
 
 3. **Open `index.html` in your browser to see the page.**
