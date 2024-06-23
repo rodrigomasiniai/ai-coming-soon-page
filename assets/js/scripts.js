@@ -28,18 +28,18 @@ function createIcon() {
     icon.style.width = `${size}px`;
     icon.style.height = `${size}px`;
 
-    const startX = Math.random() * window.innerWidth;
-    const startY = Math.random() * window.innerHeight;
-    icon.style.left = `${startX}px`;
-    icon.style.top = `${startY}px`;
+    const startX = Math.random() * 100;
+    const startY = Math.random() * 100;
+    icon.style.left = `${startX}%`;
+    icon.style.top = `${startY}%`;
 
-    const endX = Math.random() * window.innerWidth;
-    const endY = Math.random() * window.innerHeight;
+    const endX = Math.random() * 100;
+    const endY = Math.random() * 100;
     const duration = Math.random() * 10 + 5;
 
     icon.animate([
         { transform: `translate(0, 0)` },
-        { transform: `translate(${endX - startX}px, ${endY - startY}px)` }
+        { transform: `translate(${endX - startX}%, ${endY - startY}%)` }
     ], {
         duration: duration * 1000,
         iterations: Infinity,

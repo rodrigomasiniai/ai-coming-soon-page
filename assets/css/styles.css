@@ -12,18 +12,25 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: var(--bg-color);
     color: var(--primary-color);
-    overflow-x: hidden;
+    overflow: hidden;
     cursor: none;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
 }
 
 .content-wrap {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
     z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     text-align: center;
     padding: 40px 20px;
     box-sizing: border-box;
@@ -99,7 +106,7 @@ body {
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
     animation: bg-grid 20s linear infinite alternate;
     pointer-events: none;
-    z-index: -1;
+    z-index: -2;
 }
 
 @keyframes bg-grid {
@@ -123,6 +130,7 @@ body {
     opacity: 0.15;
     border: 2px solid var(--primary-color);
     animation: orbit 60s linear infinite;
+    pointer-events: none;
 }
 
     .orbit::before {
@@ -231,16 +239,19 @@ body {
 .social-icons {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 0;
+    right: 0;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     z-index: 1001;
+    /* background-color: rgba(15, 15, 15, 0.8); */
+    padding: 10px 0;
 }
 
     .social-icons a {
         color: var(--primary-color);
-        margin-bottom: 10px;
+        margin: 0 10px;
         font-size: 1.5em;
         transition: color 0.3s ease;
     }
@@ -297,23 +308,6 @@ body {
         max-width: 300px;
         max-height: 300px;
     }
-
-    .social-icons {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        background-color: rgba(15, 15, 15, 0.8);
-        padding: 10px 0;
-    }
-
-        .social-icons a {
-            margin: 0 10px;
-            font-size: 1.2em;
-        }
 
     .logo {
         font-size: 2em;
