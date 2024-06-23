@@ -32,7 +32,7 @@ Experience the live demo [here](https://ai-coming-soon.netlify.app).
 ## 🗂️ File Structure
 
 ```
-codzz-coming-soon/
+ai-coming-soon-page/
 ├── assets/
 │   ├── css/
 │   │   └── styles.css
