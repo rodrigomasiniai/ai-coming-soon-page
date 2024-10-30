@@ -62,7 +62,7 @@ window.addEventListener('resize', updateIcons);
 setInterval(createIcon, 1000);
 
 // Countdown Timer
-const countDownDate = new Date("2025-01-01T00:00:00").getTime();
+const countDownDate = new Date("2024-12-01T00:00:00").getTime();
 
 const countdownFunction = setInterval(() => {
     const now = new Date().getTime();
